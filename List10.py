@@ -6,4 +6,5 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return max(list_num)
+    a = max(list_num)
+    return a 
