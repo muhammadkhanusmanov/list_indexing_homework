@@ -6,5 +6,8 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    a = max(list_num)
+    if list_num[0]>list_num[-1]:
+        a=list_num[0]
+    else:
+        a=list_num[-1]
     return a 
