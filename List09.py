@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    i=0
+    a=list1[0]
+    if list1.count(a)==len(list1):
+        b=True
+    else:
+        b=False
+    return b 
